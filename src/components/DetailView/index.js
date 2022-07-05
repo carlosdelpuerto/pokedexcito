@@ -4,10 +4,14 @@ import './DetailView.css'
 
 const DetailView = ({ pokemon }) => {
     const { id, name, sprite, type, height, weight} = pokemon
+
+
+
     return (
         <section className="detail-view"> 
-            <div className='circle'/>
-
+            
+            <button className='btn' onClick={() => window.location.reload()}></button> {/*codigo para refrescar la pagina*/}   
+            
             <img src={sprite} className="sprite-image" alt="sprite"/>
             <div className="data-wrapper">
                 <h1 className="data-name">ID: {id} {name}</h1>

@@ -3,14 +3,13 @@
 }
 
 body{
-  background-color: red;
+  background-color: rgb(207, 195, 195);
   margin: 0;
   padding: 0;
   font-family: 'Avenir Next', sans-serif;
-  background-image: url(https://fontmeme.com/temporary/b570107bc1c847cca91158fdba56d691.png);
-  background-repeat: no-repeat;
   background-position: top ;
-
+  background-image: url('./pokedexito.png');
+  background-repeat: no-repeat;
 
 }
 
